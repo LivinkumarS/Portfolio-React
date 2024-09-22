@@ -1,8 +1,5 @@
 import React from "react";
 import Certificate from "./Certificate";
-import udemy from '../assets/certificates/udemy.jpg'
-import googlepython from '../assets/certificates/googlepython.png'
-import jh from '../assets/certificates/jH.png'
 
 export default function Qualification() {
   return (
@@ -63,21 +60,21 @@ export default function Qualification() {
         </h1>
         <div className="w-full p-4 flex flex-wrap gap-4 items-center justify-around content-center">
           <Certificate
-            image={udemy}
+            image={`https://firebasestorage.googleapis.com/v0/b/portfolio-react-29350.appspot.com/o/udemy.jpg?alt=media&token=fe9ef583-7ce7-4483-96a7-7e487a91aa73`}
             desc="August 22, 2023"
             name="The Complete 2024 Web Development Bootcamp"
             institute="By Angela Yu -Udemy"
             link=" https://www.udemy.com/certificate/UC-03215e9d-991c-4174-88c5-868390fdeb5c/"
           />
           <Certificate
-            image={googlepython}
+            image={'https://firebasestorage.googleapis.com/v0/b/portfolio-react-29350.appspot.com/o/googlepython.png?alt=media&token=0ccd315d-b3ae-477c-9a1b-988831ace823'}
             desc="June 11, 2024"
             name="Crash Course on Python"
             institute="Google-Coursera"
             link="https://coursera.org/share/27f4c9ecd78a626186b5b2b05a9fecbf"
           />
           <Certificate
-            image={jh}
+            image={`https://firebasestorage.googleapis.com/v0/b/portfolio-react-29350.appspot.com/o/JH.png?alt=media&token=3ee1aef1-821b-4076-9021-3f6eb48df32e`}
             desc="August 22, 2023"
             name="HTML, CSS, and Javascript for Web Developers"
             institute="Johns Hopkins University"
