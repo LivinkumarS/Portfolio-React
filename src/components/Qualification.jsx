@@ -2,7 +2,7 @@ import React from "react";
 import Certificate from "./Certificate";
 import udemy from '../assets/certificates/udemy.jpg'
 import googlepython from '../assets/certificates/googlepython.png'
-import jh from '../assets/certificates/jh.png'
+import jh from '../assets/certificates/jH.png'
 
 export default function Qualification() {
   return (
