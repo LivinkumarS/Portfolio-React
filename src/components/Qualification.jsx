@@ -44,7 +44,7 @@ export default function Qualification() {
             B.E.-Electronics and Communication Engineering
           </p>
           <p className="flex-1 sm:flex-2 text-md sm:text-lg">
-            <strong>Institution: </strong>Kongu Higher Secondary School
+            <strong>Institution: </strong>Paavai Engineering College
             <br />
             <strong>Passing Out Year: </strong>2024
             <br />
