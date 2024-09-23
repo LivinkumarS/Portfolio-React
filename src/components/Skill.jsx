@@ -68,7 +68,7 @@ export default function Skill() {
       </div>
       <div className="ani  cursor-pointer group relative w-[200px] h-[200px] shadow-lg rounded-full flex flex-col items-center justify-center gap-3">
         <DiPostgresql color="blue" className="w-[100px] rounded-full h-auto" />
-        <strong className="mx-auto text-lg">PostgresSQL</strong>
+        <strong className="mx-auto text-lg">PostgreSQL</strong>
         <div className="hidden w-full absolute top-0 left-0 rounded-full h-full bg-blue-700 text-white group-hover:flex items-center justify-center">
           <p className="skill text-2xl font-bold">Intermediate!</p>
         </div>
@@ -77,7 +77,7 @@ export default function Skill() {
         <DiPython color="blue" className="w-[100px] rounded-full h-auto" />
         <strong className="mx-auto text-lg">Python</strong>
         <div className="hidden w-full absolute top-0 left-0 rounded-full h-full bg-blue-950 text-white group-hover:flex items-center justify-center">
-          <p className="skill text-2xl font-bold">Advanced!</p>
+          <p className="skill text-2xl font-bold">Intermediate!</p>
         </div>
       </div>
     </div>
