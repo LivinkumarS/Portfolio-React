@@ -48,7 +48,7 @@ export default function Qualification() {
             <br />
             <strong>Passing Out Year: </strong>2024
             <br />
-            <strong>Percentage: </strong>80.8%
+            <strong>CGPA: </strong>8.15
           </p>
         </div>
         </div>
