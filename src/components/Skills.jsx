@@ -13,7 +13,7 @@ export default function Skills() {
       </h1>
       <Project
         head="Saala's Blog – MERN Stack Blogging Platform"
-        link="https://saalagram.onrender.com/"
+        link="https://saalagram.netlify.app/"
         image={`https://firebasestorage.googleapis.com/v0/b/portfolio-react-29350.appspot.com/o/saalagram.png?alt=media&token=46ef3b48-5d43-4667-a2e3-d419b2a772a5`}
         content="Developed a fully functional blog website using MongoDB, Express, React, and Node.js (MERN). Showcased web development skills by creating an engaging, responsive platform for posting articles and tutorials."
         date={"Sept 15th 2024"}
