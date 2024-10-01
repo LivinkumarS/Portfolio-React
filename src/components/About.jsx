@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
+import { Button } from "flowbite-react";
+import { Link } from "react-scroll";
+import cv from '../assets/LivinkumarCV.pdf'
 
 export default function About() {
   const [age, setAge] = useState({});
@@ -47,7 +50,7 @@ export default function About() {
   }, 1000);
 
   return (
-    <div id="_about" className="w-full p-5 sm:p-10">
+    <div id="_about" className="w-full p-5 sm:p-10 mb-10">
       <h1 className="ani text-xl sm:text-2xl font-bold mx-auto text-center my-3">
         ABOUT
       </h1>
@@ -65,6 +68,26 @@ export default function About() {
           Currently seeking a role in a company where I can apply and expand my
           skills while contributing to innovative projects.
         </p>
+      </div>
+
+      <div className="my-9 p-5 flex flex-wrap gap-4 flex-row items-center justify-center shadow-green-500 hover:shadow-md">
+        <Button gradientDuoTone={"greenToBlue"}>
+          <a href={cv} download="Resume-Saala">
+            Download CV
+          </a>
+        </Button>
+        <Button gradientDuoTone={"greenToBlue"} outline>
+          <Link
+            id="contact"
+            activeClass="active"
+            to="_contact"
+            spy={true}
+            smooth={true}
+            duration={1000}
+          >
+            Contact Me!
+          </Link>
+        </Button>
       </div>
 
       <div className="p-5 w-full max-w-[1200px]  shadow-lg mx-auto rounded-tl-lg rounded-br-lg mt-6">
